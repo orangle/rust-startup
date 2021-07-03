@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "hello-rust",
+    "guessing_game",
+    "variables"
+]
