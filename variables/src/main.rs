@@ -1,5 +1,7 @@
 
 
+pub mod types;
+
 fn main() {
     test1();
 }
