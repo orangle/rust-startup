@@ -3,5 +3,6 @@ members = [
     "hello-rust",
     "guessing_game",
     "variables",
-    "training_code"
+    "training_code",
+    "chaos_test"
 ]
