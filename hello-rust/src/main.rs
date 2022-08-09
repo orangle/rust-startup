@@ -1,7 +1,7 @@
 use ferris_says::say; // from the previous step
 use std::io::{stdout, BufWriter};
 use structopt::StructOpt;
-use log::{info, warn};
+use log::{info};
 
 #[derive(StructOpt)]
 struct Cli {
