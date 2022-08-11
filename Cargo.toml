@@ -4,5 +4,8 @@ members = [
     "guessing_game",
     "variables",
     "training_code",
-    "chaos_test"
+    "chaos_test",
+    "scrape_url",
+    "chat_fake",
+    "httpie"
 ]
