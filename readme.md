@@ -48,4 +48,3 @@ registry = "https://mirrors.tuna.tsinghua.edu.cn/git/crates.io-index.git"
 [net]
 git-fetch-with-cli = true
 ```
-

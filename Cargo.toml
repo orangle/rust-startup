@@ -7,5 +7,7 @@ members = [
     "chaos_test",
     "scrape_url",
     "chat_fake",
-    "httpie"
+    "httpie",
+    "queryer",
+    "05_thumbor"
 ]

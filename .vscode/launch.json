@@ -1,0 +1,435 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in library 'hello-rust'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--lib",
+                    "--package=hello-rust"
+                ],
+                "filter": {
+                    "name": "hello-rust",
+                    "kind": "lib"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'hello-rust'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=hello-rust",
+                    "--package=hello-rust"
+                ],
+                "filter": {
+                    "name": "hello-rust",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'hello-rust'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=hello-rust",
+                    "--package=hello-rust"
+                ],
+                "filter": {
+                    "name": "hello-rust",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'guessing_game'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=guessing_game",
+                    "--package=guessing_game"
+                ],
+                "filter": {
+                    "name": "guessing_game",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'guessing_game'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=guessing_game",
+                    "--package=guessing_game"
+                ],
+                "filter": {
+                    "name": "guessing_game",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'variables'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=variables",
+                    "--package=variables"
+                ],
+                "filter": {
+                    "name": "variables",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'variables'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=variables",
+                    "--package=variables"
+                ],
+                "filter": {
+                    "name": "variables",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in library 'training_code'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--lib",
+                    "--package=training_code"
+                ],
+                "filter": {
+                    "name": "training_code",
+                    "kind": "lib"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'chaos_test'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=chaos_test",
+                    "--package=chaos_test"
+                ],
+                "filter": {
+                    "name": "chaos_test",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'chaos_test'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=chaos_test",
+                    "--package=chaos_test"
+                ],
+                "filter": {
+                    "name": "chaos_test",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'scrape_url'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=scrape_url",
+                    "--package=scrape_url"
+                ],
+                "filter": {
+                    "name": "scrape_url",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'scrape_url'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=scrape_url",
+                    "--package=scrape_url"
+                ],
+                "filter": {
+                    "name": "scrape_url",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'chat_fake'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=chat_fake",
+                    "--package=chat_fake"
+                ],
+                "filter": {
+                    "name": "chat_fake",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'chat_fake'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=chat_fake",
+                    "--package=chat_fake"
+                ],
+                "filter": {
+                    "name": "chat_fake",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'httpie'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=httpie",
+                    "--package=httpie"
+                ],
+                "filter": {
+                    "name": "httpie",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'httpie'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=httpie",
+                    "--package=httpie"
+                ],
+                "filter": {
+                    "name": "httpie",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in library 'queryer'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--lib",
+                    "--package=queryer"
+                ],
+                "filter": {
+                    "name": "queryer",
+                    "kind": "lib"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'dialect'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=dialect",
+                    "--package=queryer"
+                ],
+                "filter": {
+                    "name": "dialect",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'dialect'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=dialect",
+                    "--package=queryer"
+                ],
+                "filter": {
+                    "name": "dialect",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'covid'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=covid",
+                    "--package=queryer"
+                ],
+                "filter": {
+                    "name": "covid",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'covid'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=covid",
+                    "--package=queryer"
+                ],
+                "filter": {
+                    "name": "covid",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'thumbor'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=thumbor",
+                    "--package=thumbor"
+                ],
+                "filter": {
+                    "name": "thumbor",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'thumbor'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=thumbor",
+                    "--package=thumbor"
+                ],
+                "filter": {
+                    "name": "thumbor",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
