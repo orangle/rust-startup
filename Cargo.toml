@@ -9,5 +9,6 @@ members = [
     "chat_fake",
     "httpie",
     "queryer",
-    "05_thumbor"
+    "05_thumbor",
+    "kv"
 ]
